@@ -40,15 +40,14 @@
         android:id="@+id/computerMoveImage" />
 
     <TextView
-        android:text="score"
+        android:text="currentWinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/text_score"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:fontFamily="cursive"
+        android:id="@+id/current_winner"
         android:textAlignment="center"
-        android:textStyle="normal|bold"
-        android:lineSpacingExtra="30sp" />
+        android:textSize="30sp"
+        android:fontFamily="cursive"
+        android:textStyle="normal|bold" />
 
     <Button
         android:text="Rock"
@@ -86,5 +85,16 @@
         android:textSize="30sp"
         android:textStyle="normal|bold"
         android:textAllCaps="false" />
+
+    <TextView
+        android:text="score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_score"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:fontFamily="cursive"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:lineSpacingExtra="30sp" />
 
 </LinearLayout>
