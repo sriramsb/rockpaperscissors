@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:text="Your move"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textAlignment="center"
+        android:textStyle="normal|bold|italic"
+        android:textAllCaps="false"
+        android:fontFamily="cursive" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/paper"
+        android:id="@+id/playersMoveImage" />
+
+    <TextView
+        android:text="Computer plays"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:fontFamily="cursive"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/scissors"
+        android:id="@+id/computerMoveImage" />
+
+    <TextView
+        android:text="score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_score"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:fontFamily="cursive"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:lineSpacingExtra="30sp" />
+
+    <Button
+        android:text="Rock"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_rock"
+        android:fontFamily="cursive"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:elevation="0dp"
+        android:visibility="visible"
+        android:textStyle="normal|bold"
+        android:textAllCaps="false" />
+
+    <Button
+        android:text="Paper"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:id="@+id/button_paper"
+        style="@style/Widget.AppCompat.Button"
+        android:textAlignment="center"
+        android:fontFamily="cursive"
+        android:layout_width="176dp"
+        android:textStyle="normal|bold"
+        android:textSize="30sp"
+        android:textAllCaps="false" />
+
+    <Button
+        android:text="Scissors"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_scissors"
+        style="@style/Widget.AppCompat.Button"
+        android:fontFamily="cursive"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        android:textAllCaps="false" />
+
+</LinearLayout>
